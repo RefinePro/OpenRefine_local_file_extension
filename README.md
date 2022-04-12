@@ -26,3 +26,8 @@ Default location is the `Download` folder from the home user directory.
   * For Windows OS use the `refine.bat` to start OpenRefine, additional configuration in `refine.ini` won't be loaded using the `openrefine.exe` executable. Example `EXT_LOCAL_FILE_SYSTEM=C:\\Users\\Home\\Desktop`
 * Another option is add the environment variable to any Shell script that start OpenRefine. Example: `export EXT_LOCAL_FILE_SYSTEM=/data/files`
 **Note:** If you don't see any files from the defined location verify that the folder is a valid location in your environment and files are with valid READ permissions.
+
+
+## Demo with Docker
+
+* Use the docker image from [RefinePro/OpenRefine_Docker ](https://github.com/RefinePro/OpenRefine_Docker)
