@@ -12,11 +12,11 @@ Default location is the `Download` folder from the home user directory.
 ## Compile
 
 * Execute `mvn package assembly:single`
-* Extension will be located into `target/local-file-system-1.0.1.zip`
+* Extension will be located into `target/local-file-system-1.0.2.zip`
 
 ## Installation
 
-* Extract the `local-file-system-1.0.1.zip` into the OpenRefine folder `webapp/extensions`
+* Extract the `local-file-system-1.0.2.zip` into the OpenRefine folder `webapp/extensions`
 * Run OpenRefine and you can start a new project form the `Workspace Data` tab
 
 ### Configure default location folder
