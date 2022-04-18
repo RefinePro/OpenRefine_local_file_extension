@@ -1,8 +1,7 @@
 
 ## Description
 
-OpenRefine extension to load CSV files from a local environment. Compatible with OpenRefine 3.3
-Default location is the `Download` folder from the home user directory.
+OpenRefine extension to load CSV files from a local environment. When OpenRefine is hosted the extension allow the user to create a project using file on the local samba file system. It will avoid user to upload file from their local machine over Internet. The extension is tested with OpenRefine 3.3.  The default location is the `Download` folder from the home user directory.
 
 ## Requirements
 
@@ -30,4 +29,4 @@ Default location is the `Download` folder from the home user directory.
 
 ## Demo with Docker
 
-* Use the docker image from [RefinePro/OpenRefine_Docker ](https://github.com/RefinePro/OpenRefine_Docker)
+* Use the docker image from [RefinePro/OpenRefine_Docker](https://github.com/RefinePro/OpenRefine_Docker)
